@@ -1,0 +1,75 @@
+<!-- <input id="box" onkeyup="update()" >
+<h1 id="result"></h1>
+ <script>
+    var box =document.getElementById("box")
+    var result=document.getElementById("result")
+
+    function update()
+    {
+        result.textContent=box.value
+    }
+ </script> -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ </head>
+ <body>
+    <h1>Hi I want change the content in my website.</h1>
+    <h2>Hello.......</h2>
+    <script>
+       // alert("hi");
+       setTimeout(()=>{
+        document.querySelector("h1").innerHTML="Change the content sucessfully";
+       },5000)
+       console.log("hello");
+        // variable declaration
+        var name="Gokul_Leo_Das";
+        let email="gokul1234@gamil.com";
+        const age=21;
+        console.log(name,email,age);
+        var arr=[10,20,30,40,50];
+        document.write(arr);
+        document.writeln(arr[5]);
+        console.log(arr)
+        var obj={
+            model:"car2",
+            price:"233334",
+            tax:23
+        }
+        document.writeln(obj);
+        console.log(obj);
+
+        var collage={
+         name:"KPR",
+         year:"2009",
+         place:"Coimbatore",
+         members:"200"
+        }
+        function printdetails(name,place)
+        {
+         console.log(`${name} and the ${place}.`)
+        }
+        printdetails("Hello",22);
+
+         function add()
+         {
+            console.log("Its is normal funtion.");
+         }
+         add();
+         var val=function()
+         {
+            console.log("Its is Anayoumous funtion.");
+         }
+         val();
+         let check=()=>
+         {
+            console.log("This is arrow funtion.");
+         }
+         check();
+    </script>
+ </body>
+ </html>
